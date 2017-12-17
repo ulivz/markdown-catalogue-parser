@@ -14,8 +14,17 @@ npm i markdown-catalogue-parser
 ```js
 const markdownCatalogueParser = require('markdown-catalogue-parser')
 
-markdownCatalogueParser()
-//=> foo
+const catalogue = markdownCatalogueParser('README.md')
+```
+
+then catalogue will be as follows:
+
+```markdown
+- [markdown-catalogue-parser](#markdown-catalogue-parser)
+  * [Install](#install)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Author](#author)
 ```
 
 ## Contributing
