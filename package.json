@@ -1,0 +1,48 @@
+{
+  "name": "markdown-catalogue-parser",
+  "version": "0.0.0",
+  "description": "my wicked project",
+  "repository": {
+    "url": "ULIVZ/markdown-catalogue-parser",
+    "type": "git"
+  },
+  "scripts": {
+    "test:cov": "jest --coverage && npm run lint",
+    "test": "npm run lint && jest",
+    "lint": "xo"
+  },
+  "author": "ULIVZ <chl814@foxmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          [
+            "env",
+            {
+              "targets": {
+                "node": "current"
+              }
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest-cli": "^19.0.0",
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0",
+    "babel-preset-env": "^1.4.0"
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": [
+      "jest"
+    ]
+  }
+}

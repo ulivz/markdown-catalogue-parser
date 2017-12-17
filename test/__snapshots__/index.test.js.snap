@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+"  - [markdown-catalogue-parser](#markdown-catalogue-parser)
+    * [Install](#install)
+    * [Usage](#usage)
+    * [Contributing](#contributing)
+    * [Author](#author)"
+`;
