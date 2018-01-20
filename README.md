@@ -17,7 +17,7 @@ const markdownCatalogueParser = require('markdown-catalogue-parser')
 const catalogue = markdownCatalogueParser('README.md')
 ```
 
-then catalogue will be as follows:
+then `catalogue` will be as follows:
 
 ```markdown
 - [markdown-catalogue-parser](#markdown-catalogue-parser)
