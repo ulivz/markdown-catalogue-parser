@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Get CSS Tree</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="https://unpkg.com/demojs@1.0.2/dist/demo.js"></script>
+<script src="https://unpkg.com/markdown-catalogue-parser@0.0.4/dist/markdown-catalogue-parser.js"></script>
+<script>
+  window.demojs({
+    title: 'Markdown Catalogue Parser',
+    transformers: {
+      catalogue: function (raw) {
+        return markdownCatalogueParser(raw)
+      }
+    },
+    modes: [
+      {
+        key: 'catalogue',
+        text: 'catalogue'
+      }
+    ]
+  })
+</script>
+</body>
+</html>
