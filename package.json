@@ -6,6 +6,7 @@
     "url": "ULIVZ/markdown-catalogue-parser",
     "type": "git"
   },
+  "main": "dist/markdown-catalogue-parser.js",
   "scripts": {
     "test:cov": "jest --coverage && npm run lint",
     "test": "npm run lint && jest",
