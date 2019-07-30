@@ -1,7 +1,7 @@
 # markdown-catalogue-parser
 
 [![NPM version](https://img.shields.io/npm/v/markdown-catalogue-parser.svg?style=flat)](https://npmjs.com/package/markdown-catalogue-parser) [![NPM downloads](https://img.shields.io/npm/dm/markdown-catalogue-parser.svg?style=flat)](https://npmjs.com/package/markdown-catalogue-parser) [![CircleCI](https://circleci.com/gh/ULIVZ/markdown-catalogue-parser/tree/master.svg?style=shield)](https://circleci.com/gh/ULIVZ/markdown-catalogue-parser/tree/master)  [![codecov](https://codecov.io/gh/ULIVZ/markdown-catalogue-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/ULIVZ/markdown-catalogue-parser)
- [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/ULIVZ/donate)
+ [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/ULIVZ/donate) [![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/markdown-catalogue-parser.svg)](https://greenkeeper.io/)
 
 ## Install
 
